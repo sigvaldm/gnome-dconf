@@ -37,7 +37,7 @@ A few custom keybindings I use a lot:
 | Action              | Keybinding                  |
 |---------------------|-----------------------------|
 | Open web browser    | `<Super>w`                  |
-| Open e-mail cline   | `<Super>e`                  |
+| Open e-mail client  | `<Super>e`                  |
 | Open file browser    | `<Super>f`                  |
 | Open terminal       | `<Super>t`                  |
 
