@@ -46,3 +46,7 @@ To add the keybindings to your settings run:
 ```
 dconf load / < custom-keybindings
 ```
+
+## Disclaimer
+
+This is provided as-is with no guarantee whatsoever. I may not be held liable for any undesirable outcome of its use. However, if you do find issues, I'd be glad if you put up an issue.
