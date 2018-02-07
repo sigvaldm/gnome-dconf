@@ -1,0 +1,10 @@
+[org/gnome/settings-daemon/plugins/media-keys]
+www='<Super>w'
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+email='<Super>e'
+home='<Super>f'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>t'
+command='gnome-terminal'
+name='Launch terminal'

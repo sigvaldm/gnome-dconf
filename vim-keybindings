@@ -1,0 +1,23 @@
+[org/gnome/settings-daemon/plugins/media-keys]
+screensaver=''
+
+[org/gnome/desktop/wm/keybindings]
+maximize=['<Super>Up', '<Super>k']
+unmaximize=['<Super>Down', '<Alt>F5', '<Super>j']
+move-to-workspace-up=['<Super><Shift>Page_Up', '<Control><Shift><Alt>Up', '<Control><Shift><Alt>k']
+switch-to-workspace-left=['<Control><Alt>Left', '<Control><Alt>h']
+switch-to-workspace-down=['<Super>Page_Down', '<Control><Alt>Down', '<Control><Alt>j']
+move-to-workspace-right=['<Control><Shift><Alt>Right', '<Control><Shift><Alt>l']
+switch-to-workspace-right=['<Control><Alt>Right', '<Control><Alt>l']
+move-to-monitor-left=['<Super><Shift>Left', '<Super><Shift>h']
+move-to-monitor-down=['<Super><Shift>Down', '<Super><Shift>k']
+move-to-workspace-left=['<Control><Shift><Alt>Left', '<Control><Shift><Alt>h']
+move-to-monitor-right=['<Super><Shift>Right', '<Super><Shift>l']
+move-to-workspace-down=['<Super><Shift>Page_Down', '<Control><Shift><Alt>Down', '<Control><Alt><Shift>j']
+move-to-monitor-up=['<Super><Shift>Up', '<Super><Shift>k']
+minimize=@as []
+switch-to-workspace-up=['<Super>Page_Up', '<Control><Alt>Up', '<Control><Alt>k']
+
+[org/gnome/mutter/keybindings]
+toggle-tiled-right=['<Super>Right', '<Super>l']
+toggle-tiled-left=['<Super>Left', '<Super>h']
