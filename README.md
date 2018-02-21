@@ -41,7 +41,7 @@ A few custom keybindings I use a lot:
 | Action              | Keybinding                  |
 |---------------------|-----------------------------|
 | Open web browser    | `<Super>w`                  |
-| Open e-mail cline   | `<Super>e`                  |
+| Open e-mail client  | `<Super>e`                  |
 | Open file browser   | `<Super>f`                  |
 | Open terminal       | `<Super>t`                  |
 
@@ -50,3 +50,7 @@ To add the keybindings to your settings run:
 ```
 dconf load / < custom-keybindings
 ```
+
+## Disclaimer
+
+This is provided as-is with no guarantee whatsoever. I may not be held liable for any undesirable outcome of its use. However, if you do find issues, I'd be glad if you put up an issue.
