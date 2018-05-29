@@ -44,6 +44,9 @@ A few custom keybindings I use a lot:
 | Open e-mail client  | `<Super>e`                  |
 | Open file browser   | `<Super>f`                  |
 | Open terminal       | `<Super>t`                  |
+| Spawn terminal      | `<Super>y`                  |
+
+By spawning a terminal I mean that you keep the current working directory of an already active terminal window.
 
 
 To add the keybindings to your settings run:

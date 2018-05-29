@@ -8,3 +8,6 @@ home='<Super>f'
 binding='<Super>t'
 command='gnome-terminal'
 name='Launch terminal'
+
+[org/gnome/terminal/legacy/keybindings]
+new-window='<Super>y'
