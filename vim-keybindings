@@ -1,5 +1,5 @@
 [org/gnome/settings-daemon/plugins/media-keys]
-screensaver=''
+screensaver=@as []
 
 [org/gnome/desktop/wm/keybindings]
 unmaximize=['<Super>Down', '<Alt>F5', '<Super>j']
