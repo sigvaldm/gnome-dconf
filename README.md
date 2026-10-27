@@ -7,12 +7,12 @@ keyboard shortcuts.
 
 | Action                               | Keybinding                 |
 |--------------------------------------|----------------------------|
-| Cycle window in application switcher | `<Alt>[hl]`				|
+| Cycle window in application switcher | `<Alt>[hl]`                |
 | Switch between workspaces            | `<Ctrl><Alt>[hjkl]`        |
 | Move window to a different workspace | `<Ctrl><Alt><Shift>[hjkl]` |
 | Move window to a different monitor   | `<Super><Shift>[hjkl]`     |
 | Maximize/unmaximize window           | `<Super>[jk]`              |
-| Tile window left/right               | `<Super>[hl]`              |
+| Tile window left/right               | `<Super>[hlø]`             |
 
 To add the keybindings to your settings run:
 ```
@@ -22,7 +22,10 @@ dconf load / < vim-keybindings
 The default shortcuts will be left intact so arrows can still be used instead of
 `[hjkl]`.  An exception is `<Super>l` and `<Super>h` which is normally used for
 locking the screen and minimizing windows.  These are now used for tiling left
-and right.
+and right. When using Linux through (X)RDP from a Windows desktop, `<Super>l` is
+reserved for locking the screen on Windows, and disabling `<Super>l` will not be
+forwarded (even if disabling screen locking on Windows). Norwegian keyboards can 
+also use `<Super>ø` to tile right.
 
 While we're at it, I also recommend adding the following to your `.vimrc` such
 that `<Ctrl>[hjkl]` can be used to change window _within_ Vim.

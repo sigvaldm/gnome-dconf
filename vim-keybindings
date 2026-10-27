@@ -24,4 +24,4 @@ move-to-monitor-right=['<Super><Shift>Right', '<Super><Shift>l']
 
 [org/gnome/mutter/keybindings]
 toggle-tiled-left=['<Super>Left', '<Super>h']
-toggle-tiled-right=['<Super>Right', '<Super>l']
+toggle-tiled-right=['<Super>Right', '<Super>l', '<Super>oslash']
